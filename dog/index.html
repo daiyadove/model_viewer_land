@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>dog</title>
+  </head>
+  <body>
+  <script 
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+  </script>
+  <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+  <model-viewer  
+    ar
+    alt="dog"
+    src="./dog/scene.gltf" 
+    ios-src="./Dog.usdz" 
+    style="width:500px;height:500px;"                  
+    background-color="#70BCD1"
+    shadow-intensity="0.7"
+    camera-controls
+    interaction-prompt="auto"
+    auto-rotate ar magic-leap>
+  </model-viewer>
+  </body>
+</html>
