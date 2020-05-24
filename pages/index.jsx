@@ -1,5 +1,5 @@
 import ModelList from '../components/ModelList'
-import Layout from '../components/Layout'
+import Layout from '../components/layout'
 import Head from 'next/head';
 
 const Index = () => (
