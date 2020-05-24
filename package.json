@@ -1,0 +1,30 @@
+{
+  "name": "model_viewer_land",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@google/model-viewer": "^0.10.0",
+    "next": "^9.4.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daiyadove/model_viewer_land.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daiyadove/model_viewer_land/issues"
+  },
+  "homepage": "https://github.com/daiyadove/model_viewer_land#readme"
+}
