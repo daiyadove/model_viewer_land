@@ -12,7 +12,7 @@ const ModelView = (props) => {
       interaction-prompt="auto"
       auto-rotate
       magic-leap
-      style={{width: '500px', height: '500px'}}>
+      style={{width: '384px', height: '250px'}}>
     </model-viewer>
   )
 }

@@ -10,9 +10,6 @@ const ModelItem = (props) => (
         alt: props.alt
       }}
     />
-    <ModelInfo
-      title={props.alt}
-    />
   </div>
 )
 
