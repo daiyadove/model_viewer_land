@@ -8,11 +8,11 @@ const ModelView = (props) => {
       ios-src={p.isoSrc}
       shadow-intensity="1"
       environment-image
-      camera-controls
+      camera-controls 
       interaction-prompt="auto"
       auto-rotate
       magic-leap
-      class="w-auto lg:max-w-1/2"
+      class="w-auto"
       >
     </model-viewer>
   )
