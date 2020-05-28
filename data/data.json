@@ -1,7 +1,7 @@
 {
   "models": [
     {
-      "src": "https://firebasestorage.googleapis.com/v0/b/anyr-land.appspot.com/o/eva%2Fout.glb?alt=media&token=1eec0063-b796-48b5-9fcd-a228bd1d26ba",
+      "src": "../old/eva/eva01/scene.gltf",
       "iosSrc": "../old/eva/Eva01.usdz",
       "alt": "Eva 01"
     },
