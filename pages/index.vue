@@ -1,39 +1,22 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        model_viewer_land
-      </h1>
-      <h2 class="subtitle">
-        anyr
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
-  </div>
+  <model-viewer
+    ar
+    alt="hoge"
+    src="https://firebasestorage.googleapis.com/v0/b/anyr-land.appspot.com/o/eva%2Fout.glb?alt=media&token=1eec0063-b796-48b5-9fcd-a228bd1d26ba"
+    ios-src="https://firebasestorage.googleapis.com/v0/b/anyr-land.appspot.com/o/eva%2Fusdz%2FEva01.usdz?alt=media&token=e8900293-8bb2-4865-969e-5397b26a4fb3"
+    shadow-intensity="1"
+    camera-controls
+    interaction-prompt="auto"
+    auto-rotate
+    magic-leap
+  />
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import '@google/model-viewer/dist/model-viewer'
 
 export default {
   components: {
-    Logo
   }
 }
 </script>

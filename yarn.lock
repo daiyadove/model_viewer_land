@@ -843,6 +843,23 @@
     postcss "7.0.28"
     purgecss "^2.2.0"
 
+"@google/3dom@0.0.1-alpha.4":
+  version "0.0.1-alpha.4"
+  resolved "https://registry.yarnpkg.com/@google/3dom/-/3dom-0.0.1-alpha.4.tgz#bea8659786487069f3a05bae5813e73dbed6596b"
+  integrity sha512-HrgYWS9RMCiQoxj7jZ0pU0Eg3wY/QJpCPLsIaqAP44dhTMb+A/8sVE4O3pot/Ka2Eei+y2JkhIWRVhfgB2cNqQ==
+  dependencies:
+    three "^0.115.0"
+
+"@google/model-viewer@^0.10.0":
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/@google/model-viewer/-/model-viewer-0.10.0.tgz#d18c4741caed912534e17747da7ef9164908ace9"
+  integrity sha512-i6oghO6LbYTOfvWQRQzInWEVSC67ZQ0uyJzjC2ewVupP9v+8xeQVo6YIvSenR2AUgpZt9SoPnQZ9gDTpBmNTVA==
+  dependencies:
+    "@google/3dom" "0.0.1-alpha.4"
+    "@types/resize-observer-browser" "^0.1.2"
+    lit-element "^2.2.0"
+    three "^0.115.0"
+
 "@nuxt/babel-preset-app@2.12.2":
   version "2.12.2"
   resolved "https://registry.yarnpkg.com/@nuxt/babel-preset-app/-/babel-preset-app-2.12.2.tgz#0e87c4f4f578868e74f6fa9e2a38cace5c77dac8"
@@ -1176,6 +1193,11 @@
   version "1.5.4"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.4.tgz#15925414e0ad2cd765bfef58842f7e26a7accb24"
   integrity sha512-1HcDas8SEj4z1Wc696tH56G8OlRaH/sqZOynNNB+HF0WOeXPaxTtbYzJY2oEfiUxjSKjhCKr+MvR7dCHcEelug==
+
+"@types/resize-observer-browser@^0.1.2":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@types/resize-observer-browser/-/resize-observer-browser-0.1.3.tgz#5cca2445e6fc34a380760bd6ef8c492863469c47"
+  integrity sha512-3tGjLIDH8L57fWOfC7NVn/BbGQD7pXwbkk2+8Z4hK/S7kOIv1MUN4nkKjfx0qg4ctkukjzp3Bgr/Z+Hq5ZQZTQ==
 
 "@typescript-eslint/experimental-utils@^1.13.0":
   version "1.13.0"
@@ -4869,6 +4891,18 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
+lit-element@^2.2.0:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/lit-element/-/lit-element-2.3.1.tgz#73343b978fa1e73d60526c6bb6ad60f53a16c343"
+  integrity sha512-tOcUAmeO3BzwiQ7FGWdsshNvC0HVHcTFYw/TLIImmKwXYoV0E7zCBASa8IJ7DiP4cen/Yoj454gS0qqTnIGsFA==
+  dependencies:
+    lit-html "^1.1.1"
+
+lit-html@^1.1.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-1.2.1.tgz#1fb933dc1e2ddc095f60b8086277d4fcd9d62cc8"
+  integrity sha512-GSJHHXMGLZDzTRq59IUfL9FCdAlGfqNp/dEa7k7aBaaWD+JKaCjsAk9KYm2V12ItonVaYx2dprN66Zdm1AuBTQ==
+
 load-json-file@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/load-json-file/-/load-json-file-2.0.0.tgz#7947e42149af80d696cbf797bcaabcfe1fe29ca8"
@@ -7868,6 +7902,11 @@ thread-loader@^2.1.3:
     loader-runner "^2.3.1"
     loader-utils "^1.1.0"
     neo-async "^2.6.0"
+
+three@^0.115.0:
+  version "0.115.0"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.115.0.tgz#540d800c381b9da2334c024f0fbe4d23f84eb05e"
+  integrity sha512-mAV2Ky3RdcbdSbR9capI+tKLvRldWYxd4151PZTT/o7+U2jh9Is3a4KmnYwzyUAhB2ZA3pXSgCd2DOY4Tj5kow==
 
 through2@^2.0.0:
   version "2.0.5"
