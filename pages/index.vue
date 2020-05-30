@@ -1,13 +1,18 @@
 <template>
-  <ModelView />
+  <div>
+    <ModelView />
+    <ModelInfo />
+  </div>
 </template>
 
 <script>
 import '@google/model-viewer/dist/model-viewer'
 import ModelView from '@/components/ModelView'
+import ModelInfo from '@/components/ModelInfo'
 export default {
   components: {
-    ModelView
+    ModelView,
+    ModelInfo
   }
 }
 </script>
