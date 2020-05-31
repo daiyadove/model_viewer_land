@@ -9,6 +9,7 @@
     interaction-prompt="auto"
     auto-rotate
     magic-leap
+    class="w-auto"
   />
 </template>
 

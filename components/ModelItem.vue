@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mb-8 shadow-lg">
     <ModelView
       :src="src"
       :iosSrc="iosSrc"

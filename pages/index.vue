@@ -1,6 +1,8 @@
 <template>
   <!-- <ModelItem /> -->
-  <ModelList />
+  <div class="container mx-auto">
+    <ModelList />
+  </div>
 </template>
 
 <script>
