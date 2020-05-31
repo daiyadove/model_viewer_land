@@ -6,10 +6,9 @@
       </div>
     </div>
     <div class="text-sm">
-      <span class="text-gray-900 leading-none">
-        {{ title }} by
+      <span class="text-gray-600 leading-none">
+        {{ ccBy }}
       </span>
-      <span class="text-gray-600 leading-none ml-2">ruddy illanes</span>
     </div>
   </div>
 </template>
@@ -19,7 +18,8 @@ import '@google/model-viewer/dist/model-viewer'
 import { defineComponent } from '@vue/composition-api'
 export default defineComponent({
   props: {
-    title: { default: 'Eva' }
+    title: { default: '' },
+    ccBy: { default: '' }
   },
   setup (props) {
     return {
