@@ -7,6 +7,7 @@
     />
     <ModelInfo
       :title="title"
+      :ccBy="ccBy"
     />
   </div>
 </template>
@@ -21,7 +22,8 @@ export default defineComponent({
   props: {
     src: { required: true },
     iosSrc: { required: true },
-    title: { required: true }
+    title: { required: true },
+    ccBy: { required: true }
   },
   components: {
     ModelView,

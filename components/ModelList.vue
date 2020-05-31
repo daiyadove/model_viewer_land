@@ -5,6 +5,7 @@
         :src="model.src"
         :iosSrc="model.iosSrc"
         :title="model.alt"
+        :ccBy="model.ccBy"
       />
     </li>
   </ul>
