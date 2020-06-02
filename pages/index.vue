@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto flex justify-center items-center text-center min-h-screen">
+  <div>
     <ModelList />
   </div>
 </template>
