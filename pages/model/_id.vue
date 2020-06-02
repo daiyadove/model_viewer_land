@@ -1,10 +1,12 @@
 <template>
-  <ModelItem
-    :src="model.src"
-    :iosSrc="model.iosSrc"
-    :title="model.alt"
-    :ccBy="model.ccBy"
-  />
+  <div>
+    <ModelItem
+      :src="model.src"
+      :iosSrc="model.iosSrc"
+      :title="model.alt"
+      :ccBy="model.ccBy"
+    />
+  </div>
 </template>
 
 <script>
