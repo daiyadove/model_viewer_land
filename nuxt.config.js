@@ -1,3 +1,5 @@
+import data from './data/data.json'
+const models = data.models
 
 export default {
   mode: 'spa',
@@ -61,6 +63,15 @@ export default {
     ** You can extend webpack config here
     */
     extend (config, ctx) {
+    }
+  },
+
+  /*
+  ** generate configuration
+  */
+  generate: {
+    routes () {
+      return models.map(model => `model/${model.id}`)
     }
   }
 }
