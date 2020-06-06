@@ -13,8 +13,25 @@ export const useModels = () => {
       })
     })
   }
+  const get = (docId) => {
+    const models = ref({})
+    const docRef = db.collection('models').doc(docId)
+    docRef.get().then((doc) => {
+      if (doc.exists) {
+        models.value = doc.data()
+      } else {
+        // doc.data() will be undefined in this case
+        console.log('No such document!')
+      }
+    }).catch((error) => {
+      console.log('Error getting document:', error)
+    })
+    return models
+  }
+
   return {
     fetch,
+    get,
     models
   }
 }
