@@ -15,22 +15,16 @@
 import '@google/model-viewer/dist/model-viewer'
 import { defineComponent } from '@vue/composition-api'
 import ModelItem from '@/components/ModelItem'
-import firebase from '@/plugins/firebase'
 export default defineComponent({
   components: {
     ModelItem
   },
-  setup () {
-    const models = []
-    const db = firebase.firestore()
-    db.collection('models').get().then((querySnapshot) => {
-      querySnapshot.forEach((doc) => {
-        // doc.data() is never undefined for query doc snapshots
-        models.push(doc.data())
-      })
-    })
+  props: {
+    models: { required: true }
+  },
+  setup (props) {
     return {
-      models
+      props
     }
   }
 })
