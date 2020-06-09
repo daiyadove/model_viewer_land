@@ -5,10 +5,20 @@
       :iosSrc="iosSrc"
       :title="title"
     />
-    <ModelInfo
-      :title="title"
-      :ccBy="ccBy"
-    />
+    <template v-if="id">
+      <nuxt-link :to="`model/${id}`">
+        <ModelInfo
+          :title="title"
+          :ccBy="ccBy"
+        />
+      </nuxt-link>
+    </template>
+    <template v-else>
+      <ModelInfo
+        :title="title"
+        :ccBy="ccBy"
+      />
+    </template>
   </div>
 </template>
 
@@ -23,7 +33,8 @@ export default defineComponent({
     src: { required: true },
     iosSrc: { required: true },
     title: { required: true },
-    ccBy: { required: true }
+    ccBy: { required: true },
+    id: { required: false }
   },
   components: {
     ModelView,
