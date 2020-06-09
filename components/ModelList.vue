@@ -1,11 +1,15 @@
 <template>
   <ul>
-    <li v-for="model in models" :key="model.title">
+    <li
+      v-for="model in models"
+      :key="model.title"
+    >
       <ModelItem
         :src="model.src"
         :iosSrc="model.iosSrc"
         :title="model.alt"
         :ccBy="model.ccBy"
+        :id="model.id"
       />
     </li>
   </ul>

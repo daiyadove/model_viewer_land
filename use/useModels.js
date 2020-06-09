@@ -9,7 +9,10 @@ export const useModels = () => {
     db.collection('models').get().then((querySnapshot) => {
       querySnapshot.forEach((doc) => {
         // doc.data() is never undefined for query doc snapshots
-        models.value.push(doc.data())
+        const model = doc.data()
+        // 個別ページにドキュメントIDを利用するため配列に追加する
+        model.id = doc.id
+        models.value.push(model)
       })
     })
   }
