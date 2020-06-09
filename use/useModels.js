@@ -10,6 +10,7 @@ export const useModels = () => {
       querySnapshot.forEach((doc) => {
         // doc.data() is never undefined for query doc snapshots
         const model = doc.data()
+        // 個別ページにドキュメントIDを利用するため配列に追加する
         model.id = doc.id
         models.value.push(model)
       })
