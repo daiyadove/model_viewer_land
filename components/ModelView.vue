@@ -10,7 +10,11 @@
     auto-rotate
     magic-leap
     class="w-auto"
-  />
+  >
+    <button slot="ar-button" class="bg-gray-200 px-2 py-1 rounded-full text-blue-700 font-semibold bg-transparent absolute bottom-0 right-0 m-4">
+        👋 Play AR!
+    </button>
+  </model-viewer>
 </template>
 
 <script>
@@ -31,4 +35,8 @@ export default defineComponent({
 </script>
 
 <style>
+model-viewer {
+  background-color: #eee;
+  --poster-color: #eee;
+}
 </style>
