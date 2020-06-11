@@ -1,5 +1,5 @@
 [{
-  "origin": ["https://eager-shannon-4dc73f.netlify.app/", "http://localhost:3000"],
+  "origin": ["https://eager-shannon-4dc73f.netlify.app/", "http://localhost:3000", "https://anyr-land.web.app/"],
   "responseHeader": ["*"],
   "method": ["GET"],
   "maxAgeSeconds": 86400
