@@ -48,7 +48,13 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    [
+      '@nuxtjs/google-gtag',
+      {
+        id: 'G-Y8V383WJQ5',
+      }
+    ]
   ],
   /*
   ** Axios module configuration
