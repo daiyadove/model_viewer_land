@@ -4,9 +4,7 @@
     :ios-src="iosSrc"
     :alt="title"
     ar
-    reveal="interaction"
     shadow-intensity="1"
-    camera-controls
     interaction-prompt="auto"
     auto-rotate
     magic-leap
