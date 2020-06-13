@@ -49,7 +49,7 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
-    ['@nuxtjs/google-tag-manager', { id: 'G-N4YWFLRQQV', pageTracking: true }]
+    ['@nuxtjs/google-gtag', { id: 'G-N4YWFLRQQV', pageTracking: true }]
   ],
   /*
   ** Axios module configuration
