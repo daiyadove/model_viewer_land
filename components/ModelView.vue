@@ -5,7 +5,6 @@
     :alt="title"
     ar
     reveal="interaction"
-    loading="eager"
     shadow-intensity="1"
     camera-controls
     interaction-prompt="auto"
