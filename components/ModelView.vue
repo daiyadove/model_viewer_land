@@ -7,6 +7,7 @@
     shadow-intensity="1"
     interaction-prompt="auto"
     auto-rotate
+    autoplay
     magic-leap
     class="w-auto"
   >
